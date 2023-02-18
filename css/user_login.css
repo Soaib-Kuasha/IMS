@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: helvetica;
+    background-color: #87ada7
+}
+
+.heading{
+    text-align: center;
+    /* margin: 5%; */
+    font-weight: 900;
+    color: aliceblue;
+    
+}
+
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    padding: 50px;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.733);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10%;
+}
+
+form img{
+    width: 30%;
+    border-radius: 50%;
+    transform: translate(120%);
+    
+}
+
+form h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: rgba(0, 0, 0);
+    text-align: center;
+    font-weight:900;
+    /* font-style: italic; */
+}
+
+form label{
+    color: #000000;  
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+/* form label{
+    color: #000000;  
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+#username, #password{
+    width: 300px;  
+    height: 30px; 
+    border: none;
+    border: 3px solid black; 
+    border-bottom-width: 0.5ch;
+    border-top-width: 0.5ch;
+    border-radius: 13px;
+    text-align: center;
+} */
+
+#sign-in input{
+    width: 300px;  
+    /* height: 30px; */
+    height: 30px;
+    font-weight: 900;
+    font-size: large;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: rgb(0, 0, 0);
+    background-color: rgb(133, 130, 130, 0.5);
+}
+
+
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 17px;
+    text-align: center;
+    /* margin: 8px 0; */
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.2s;
+    transition: 0.5s;
+    outline: none;
+    /* border-radius: 5%; */
+    border-radius: 13px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    border: 3px solid #555;
+    border-radius: 13px;
+}
+
+
+#foot{
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+}
+
+#foot a{
+    text-decoration: none;
+    color: brown;
+}
+
+#foot div a{
+    border: 2px solid black;
+    padding: 5px;
+    color:cadetblue;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+#home{
+    text-decoration: none;
+    padding-left: 27%;
+}
